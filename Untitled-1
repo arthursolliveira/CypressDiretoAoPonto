@@ -1,0 +1,17 @@
+Doc do cypress:
+https://docs.cypress.io/guides/overview/why-cypress
+
+Inicializar um projeto Node
+    npm init --yes
+
+instalar Cypress
+    npm install -D cypress
+    npm install -D cypress@12.5.0 (Instalar uma versão especifica)
+
+Abrir o Cypress
+    npx cypress open
+    npx cypress run (Para rodar em headles)
+    npm test
+
+Rodar em resolucao mobile (via terminal)
+    npx cypress run --config viewportHeight=1000,viewportWidht=600
