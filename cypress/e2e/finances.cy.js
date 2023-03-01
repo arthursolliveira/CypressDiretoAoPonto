@@ -1,7 +1,7 @@
 describe('transações', () => {
     
     beforeEach(() => {
-        cy.visit("https://devfinance-agilizei.netlify.app/")
+        cy.visit('/')
     });
     
     it('Cadastrar uma entrada', () => {
